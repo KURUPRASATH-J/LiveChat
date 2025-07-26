@@ -1,0 +1,51 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+/* Theme styles */
+.light-theme {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.dark-theme {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Inputs and Buttons (shared styles) */
+input,
+button {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+}
